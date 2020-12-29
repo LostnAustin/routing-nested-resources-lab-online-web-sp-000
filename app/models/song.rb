@@ -10,8 +10,6 @@ class Song < ActiveRecord::Base
     self.artist = artist
   end
 
-  def self.by_artist(artist_id)
-    where(artist: artist_id)
-  end
+
   
 end
